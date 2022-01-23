@@ -1,0 +1,74 @@
+#Main
+screen.PostProcess = Post Process
+
+#Colors
+option.COLOR_LENS=Color Style
+value.COLOR_LENS.0=Luma
+value.COLOR_LENS.1=Half Luma
+value.COLOR_LENS.2=Defualt Minecraft
+
+option.LIGHTING_STYLE=Lighting Color Style
+value.LIGHTING_STYLE.0=Luma
+value.LIGHTING_STYLE.1=Luma + Squeaky
+value.LIGHTING_STYLE.2=Squeaky
+value.LIGHTING_STYLE.3=Squeakyv2
+
+option.DIST_DARK=Distance Darkness
+value.DIST_DARK.0=OFF
+value.DIST_DARK.1=ON
+
+
+
+#Shadows
+option.shadowMapResolution=Shadow Resolution
+option.shadowDistance=Shadow Distance
+option.SOFT_SHADOWS=Soft Shadows
+option.FIX_SUNLIGHT_LEAK=Fix Underground Light Leak
+option.FIX_SUNLIGHT_LEAK.comment=This will fix sunlight leaking in underground by multiplying the sunlight with the cavelight.
+
+#Reflections
+option.PBR=Physically Based Rendering
+option.SSR_METHOD=SSR Method
+value.SSR_METHOD.0=Mirrored
+value.SSR_METHOD.1=Raytrace
+option.SSR_METHOD.comment=Mirrored: Much faster but inaccurate. Raytrace: Traditional Screen Space Reflections (SSR)
+
+#Environment
+option.AMBIENT_OCCLUSION=Ambient Occlusion
+option.GODRAYS=Godrays
+option.WINDY_TERRAIN=Windy Terrain
+option.WIND_SPEED=Wind Speed
+
+#Effects
+option.DISTANCE_BLUR=Distance Blur
+option.RAINDROP_REFRACTION=Raindrop Refraction
+option.MOTIONBLUR=Motionblur
+option.MOTIONBLUR.comment=Only recommended with high framerate.
+option.MOTIONBLUR_AMOUNT=Motionblur Amount
+option.DEPTH_OF_FIELD=Depth of Field
+
+#Reflections -> PBR
+option.PBR_FORMAT=PBR Format
+option.PBR_FORMAT.comment=Select the format matching to your resource pack. Default: r = smoothness; g = metallic.
+option.NORMAL_MAP_BUMPMULT=Normal Map Bumpmult
+
+#Reflections -> PBR
+value.PBR_FORMAT.0=Default
+value.PBR_FORMAT.1=Greyscale (Legacy)
+value.PBR_FORMAT.2=Pulchra + Continuum Addon
+value.PBR_FORMAT.3=Chroma Hills
+
+#PostProcess
+option.CHROMATIC_ABERRATION=Chromatic Aberration
+option.LENS_FLARE=Lens Flare
+option.VIGNETTE=Vignette
+option.FILM_GRAIN=Film Grain
+option.CINEMATIC_MODE=Cinematic Mode
+option.FOGD=Fog Density
+option.FOGSD=Fog Starting Distance
+
+#Tonemapping
+option.EXPOSURE=Exposure
+option.SATURATION=Saturation
+option.CONTRAST=Contrast
+
