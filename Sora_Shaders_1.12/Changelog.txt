@@ -1,4 +1,0 @@
-- Added stage spidereyes
-- In case torchlight doesn't work in Minecraft, emissive entities will be lit properly
-- Changed water and ambient color
-- Replaced motionblur with reprojection based motionblur
