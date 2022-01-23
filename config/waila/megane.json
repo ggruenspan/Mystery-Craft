@@ -1,0 +1,73 @@
+{
+  "configVersion": 3,
+  "inventory": {
+    "enabled": true,
+    "itemCount": true,
+    "nbt": false,
+    "maxWidth": 9,
+    "maxHeight": 3,
+    "blacklist": []
+  },
+  "entityInventory": {
+    "enabled": true,
+    "itemCount": true,
+    "nbt": false,
+    "maxWidth": 9,
+    "maxHeight": 3,
+    "blacklist": []
+  },
+  "energy": {
+    "enabled": true,
+    "expandWhenSneak": false,
+    "colors": {
+      "megane": 7408640,
+      "techreborn": 8390656,
+      "ae2": 6556063,
+      "modern_industrialization": 11993088,
+      "indrev": 3885790,
+      "extragenerators": 7408640,
+      "wirelessnetworks": 7408640
+    },
+    "units": {
+      "megane": "E",
+      "techreborn": "E",
+      "ae2": "AE",
+      "modern_industrialization": "EU",
+      "indrev": "LF",
+      "extragenerators": "E",
+      "wirelessnetworks": "E"
+    },
+    "blacklist": [
+      "appliedenergistics2:energy_acceptor"
+    ]
+  },
+  "fluid": {
+    "enabled": true,
+    "expandWhenSneak": false,
+    "colors": {
+      "megane:default": 855385,
+      "minecraft:water": 4159204,
+      "minecraft:lava": 13916690,
+      "milk:still_milk": 855385,
+      "techreborn:nitrogen": 2067073,
+      "techreborn:oil": 1513239,
+      "kibe:liquid_xp": 5635925
+    },
+    "blacklist": []
+  },
+  "progress": {
+    "enabled": true,
+    "showWhenZero": false,
+    "blacklist": []
+  },
+  "effect": {
+    "enabled": true,
+    "level": true,
+    "roman": false,
+    "hidden": false,
+    "blacklist": []
+  },
+  "catchServerErrors": true,
+  "spawnEgg": true,
+  "playerHead": true
+}
