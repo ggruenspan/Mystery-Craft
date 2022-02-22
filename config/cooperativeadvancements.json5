@@ -1,0 +1,4 @@
+{
+	// If advancements should be synchronized between players.  Recommended when playing with friends!
+	"enabled": true
+}

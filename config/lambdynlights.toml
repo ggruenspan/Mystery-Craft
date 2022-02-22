@@ -1,0 +1,142 @@
+# LambDynamicLights configuration.
+# The dynamic lights mode
+mode = "fancy"
+
+# Light sources settings.
+[light_sources]
+	# Enables water-sensitive light sources check. This means that water-sensitive items will not light up when submerged in water.
+	water_sensitive_check = true
+	# Enable block entities light source.
+	block_entities = true
+	# Enable entities light source.
+	entities = true
+	# TNT lighting mode. May be off, simple or fancy.
+	tnt = "off"
+	# Creeper lighting mode. May be off, simple or fancy.
+	creeper = "simple"
+
+	[light_sources.settings]
+
+		[light_sources.settings.entities]
+
+			[light_sources.settings.entities.minecraft]
+				chicken = true
+				bee = true
+				donkey = true
+				cow = true
+				chest_minecart = true
+				tropical_fish = true
+				pig = true
+				slime = true
+				skeleton = true
+				bat = true
+				cat = true
+				zombie = true
+				drowned = true
+				sheep = true
+				player = true
+				pufferfish = true
+				item = true
+				villager = true
+				salmon = true
+				zombie_villager = true
+				polar_bear = true
+				glow_squid = true
+				witch = true
+				cod = true
+				glow_item_frame = false
+				squid = true
+				spider = true
+				creeper = true
+				enderman = true
+
+			[light_sources.settings.entities.vanilla_degus]
+				degu = true
+
+			[light_sources.settings.entities.graveyard]
+				revenant = true
+				skeleton_creeper = true
+				ghoul = true
+				nightmare = true
+
+			[light_sources.settings.entities.terrarianslimes]
+				black_slime = true
+				green_slime = true
+				red_slime = true
+				yellow_slime = true
+				mother_slime = true
+				blue_slime = true
+
+			[light_sources.settings.entities.mythicmounts]
+				dragon = true
+				archelon = true
+				geckotoalizard = true
+
+			[light_sources.settings.entities.betteranimalsplus]
+				deer = true
+				feralwolf = true
+				jellyfish = true
+				octopus = true
+				songbird = true
+				badgerdirt = true
+				eel_freshwater = true
+				dragonfly = true
+				boar = true
+				whale = true
+				lamprey = true
+				butterfly = true
+				pheasant = true
+				blackbear = true
+				shark = true
+				bobbit_worm = true
+				moose = true
+				nautilus = true
+				badger = true
+				eel_saltwater = true
+				squirrel = true
+				brownbear = true
+				walrus = true
+				turkey = true
+				coyote = true
+				lammergeier = true
+				crab = true
+
+			[light_sources.settings.entities.aqupd]
+				caracal = true
+
+			[light_sources.settings.entities.earthtojavamobs]
+				piebald_pig = true
+				dairy_cow = true
+				pink_footed_pig = true
+				flecked_sheep = true
+				cream_cow = true
+				midnight_chicken = true
+				skeleton_wolf = true
+				rainbow_sheep = true
+				gold_crested_chicken = true
+				mottled_pig = true
+				bold_striped_rabbit = true
+				muddy_pig = true
+				amber_chicken = true
+				sooty_pig = true
+				patched_sheep = true
+				bronzed_chicken = true
+				horned_sheep = true
+				cookie_cow = true
+				pinto_cow = true
+				rocky_sheep = true
+				fuzzy_sheep = true
+				albino_cow = true
+				fancy_chicken = true
+				moolip = true
+				inky_sheep = true
+				sunset_cow = true
+				skewbald_chicken = true
+				lobber_zombie = true
+
+			[light_sources.settings.entities.adventurez]
+				amethyst_golem = true
+
+			[light_sources.settings.entities.tinyskeletons]
+				baby_skeleton = true
+
